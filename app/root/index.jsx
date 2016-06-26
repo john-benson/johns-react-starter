@@ -7,7 +7,7 @@ const Root = ({ history, store }) => {
   return (
     <Provider store={ store }>
       <div>
-        <DevTools />
+        { process.env.NODE_ENV === 'production' ? null : <DevTools />  }
         <Routes history={ history } />
       </div>
     </Provider>

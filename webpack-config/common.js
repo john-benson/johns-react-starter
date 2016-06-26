@@ -40,7 +40,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: 'node_modules/html-webpack-template/index.ejs',
-      title: 'Classroom Manager',
+      title: 'John\'s React Starter',
       appMountId: 'app',
       inject: false
     }),

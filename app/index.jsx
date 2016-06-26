@@ -6,7 +6,6 @@ import { createStore, createHistory } from './config';
 const store = createStore();
 const history = createHistory(store);
 
-console.log(history);
 
 ReactDOM.render(
   <Root store={ store } history={ history } />
